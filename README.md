@@ -18,7 +18,7 @@ Below is a list of the featured architectures, which includes the name of the ar
 | Decision Tree | Supervised, classification or regression* | Splits the data into branches based on feature thresholds, creating a tree structure that makes decisions by following paths from the root to a leaf node. |
 | Random Forest | Supervised, classification or regression* | An ensemble of many decision trees trained on random subsets of data and features, combining their predictions through majority voting for improved accuracy and stability. |
 
-\*NOTE: Although Logistic Regression, Decision Trees, and Random Forests can be used for regression, I have been built for classification tasks specifically here, and would require modifications to be able to do both.
+\*NOTE: Although Logistic Regression, Decision Trees, and Random Forests can be used for regression, I have built them for classification tasks specifically here and would require modifications to be able to do both tasks.
 
 
 ## PART 2 - Deep Learning/Neural Networks
