@@ -20,6 +20,20 @@ Below is a list of the featured architectures, which includes the name of the ar
 
 \*NOTE: Although Logistic Regression, Decision Trees, and Random Forests can be used for regression, I have built them for classification tasks specifically here and would require modifications to be able to do both tasks.
 
+### Run the models
+
+While the web frontend is still in development, I added `train.py` which can be used to train/test the models on `Scikit-learn` datasets (note that the only tools used from `Scikit-learn` were their datasets and `train_test_split`, which I am planning to implement from scratch myself. No machine learning tools were used, this would break the 'from scratch' objective!)
+
+Install the dependencies:
+```
+pip install numpy scikit-learn
+```
+
+To train/test the models, uncomment the desired test function in `train.py` then run:
+```
+python train.py
+```
+
 
 ## PART 2 - Deep Learning/Neural Networks
 ### WORK IN PROGRESS
